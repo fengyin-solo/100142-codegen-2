@@ -24,5 +24,6 @@ from app.routers import equip as router_equip
 from app.routers import fund as router_fund
 from app.routers import complaint as router_complaint
 from app.routers import archive as router_archive
+from app.routers import snow as router_snow
 
-ROUTERS = [router_road, router_bridge, router_tunnel, router_patrol, router_disease, router_assess, router_plan, router_work, router_accept, router_pothole, router_crack, router_drain, router_light, router_material, router_equip, router_fund, router_complaint, router_archive]
+ROUTERS = [router_road, router_bridge, router_tunnel, router_patrol, router_disease, router_assess, router_plan, router_work, router_accept, router_pothole, router_crack, router_drain, router_light, router_material, router_equip, router_fund, router_complaint, router_archive, router_snow]

@@ -244,3 +244,15 @@ class ArchiveEntry(BaseModel):
     field_5: str | None = None  # 归档人员
     field_6: str | None = None  # 归档日期
     field_7: str | None = None  # 档案状态
+
+class SnowEntry(BaseModel):
+    """除雪作业明细结构。"""
+
+    field_0: str | None = None  # 作业单号
+    field_1: str | None = None  # 责任路段
+    field_2: str | None = None  # 作业班组
+    field_3: str | None = None  # 作业里程
+    field_4: str | None = None  # 融雪剂用量
+    field_5: str | None = None  # 每公里用量
+    field_6: str | None = None  # 路面状态
+    field_7: str | None = None  # 作业状态
