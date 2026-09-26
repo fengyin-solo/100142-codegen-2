@@ -161,6 +161,18 @@ class CrackEntry(BaseModel):
     field_6: str | None = None  # 完成日期
     field_7: str | None = None  # 处置状态
 
+class SnowEntry(BaseModel):
+    """除雪作业明细结构。"""
+
+    field_0: str | None = None  # 作业单号
+    field_1: str | None = None  # 责任路段
+    field_2: str | None = None  # 作业班组
+    field_3: str | None = None  # 关联巡查单
+    field_4: str | None = None  # 作业里程
+    field_5: str | None = None  # 融雪剂用量
+    field_6: str | None = None  # 路面状况
+    field_7: str | None = None  # 作业日期
+
 class DrainEntry(BaseModel):
     """排水设施明细结构。"""
 

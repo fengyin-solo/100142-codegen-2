@@ -12,6 +12,7 @@ const Work = () => import('@/views/work/index.vue')
 const Accept = () => import('@/views/accept/index.vue')
 const Pothole = () => import('@/views/pothole/index.vue')
 const Crack = () => import('@/views/crack/index.vue')
+const Snow = () => import('@/views/snow/index.vue')
 const Drain = () => import('@/views/drain/index.vue')
 const Light = () => import('@/views/light/index.vue')
 const Material = () => import('@/views/material/index.vue')
@@ -35,6 +36,7 @@ const router = createRouter({
     { path: '/accept', name: 'accept', component: Accept },
     { path: '/pothole', name: 'pothole', component: Pothole },
     { path: '/crack', name: 'crack', component: Crack },
+    { path: '/snow', name: 'snow', component: Snow },
     { path: '/drain', name: 'drain', component: Drain },
     { path: '/light', name: 'light', component: Light },
     { path: '/material', name: 'material', component: Material },

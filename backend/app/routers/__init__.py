@@ -17,6 +17,7 @@ from app.routers import work as router_work
 from app.routers import accept as router_accept
 from app.routers import pothole as router_pothole
 from app.routers import crack as router_crack
+from app.routers import snow as router_snow
 from app.routers import drain as router_drain
 from app.routers import light as router_light
 from app.routers import material as router_material
@@ -25,4 +26,4 @@ from app.routers import fund as router_fund
 from app.routers import complaint as router_complaint
 from app.routers import archive as router_archive
 
-ROUTERS = [router_road, router_bridge, router_tunnel, router_patrol, router_disease, router_assess, router_plan, router_work, router_accept, router_pothole, router_crack, router_drain, router_light, router_material, router_equip, router_fund, router_complaint, router_archive]
+ROUTERS = [router_road, router_bridge, router_tunnel, router_patrol, router_disease, router_assess, router_plan, router_work, router_accept, router_pothole, router_crack, router_snow, router_drain, router_light, router_material, router_equip, router_fund, router_complaint, router_archive]
